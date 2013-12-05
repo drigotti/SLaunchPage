@@ -1,0 +1,37 @@
+<div class="row" style="margin-top:20px;">
+  	<div class="col-lg-5 col-md-6 col-sm-8 col-lg-offset-1 text-center">
+  		<!-- Confirmation and Incentive Copy -->
+		<p><i><strong>We got you, thanks for signing up!</i></strong><br />Help spread the word by sharing your unique URL below. To sweeten the offer, refer 3 friends to signup and get 50% off your first month when it launches! <% if @user.count %>So far your referral count is <%= @user.count %>.<% else %><% end %></p>
+		<!-- End Confirmation and Incentive Copy -->
+
+		<!-- Referral URL -->
+		<p><input type="email" class="form-control url" value="<%= "#{root_url}?code=#{@user.code}" %>"></p>
+		<!-- End Referral URL -->
+
+	    <a class="btn btn-twitter" href="https://twitter.com/intent/tweet?related=<%= ENV['TWITTER_HANDLE'] %>&url=<%=u "#{root_url}?code=#{@user.code}"%>&text=I+just+signed+up+for+@<%= ENV['TWITTER_HANDLE'] %>.+Join+me+at">
+  			<i class="fa fa-twitter fa-lg"></i> Twitter</a>
+ 	    <a class="btn btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=<%=u "#{root_url}?code=#{@user.code}"%>">
+  			<i class="fa fa-facebook fa-lg"></i> Facebook</a>
+	    <a class="btn btn-gplus" href="https://plus.google.com/share?url=<%= "#{root_url}?code=#{@user.code}" %>" onclick="javascript:window.open(this.href,
+	    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+  			<i class="fa fa-google-plus fa-lg"></i> Google+</a>
+	</div>
+</div>
+
+<style>
+.btn-twitter {
+	background-color: #4099ff;
+	color: #fff;
+}
+.btn-facebook {
+	background-color: #3B5998;
+	color: #fff;
+}
+.btn-gplus {
+	background-color: #d34836;
+	color: #fff;
+}
+.btn-gplus:hover, .btn-facebook:hover, .btn-twitter:hover {
+	color: #d4d4d4;
+}
+</style>

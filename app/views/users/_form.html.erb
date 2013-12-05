@@ -1,0 +1,39 @@
+<%= form_for(@user) do |f| %>
+
+  <!-- Sign Up Form -->
+  <div class="row" style="margin-top:30px;">
+    <div class="col-lg-5 col-sm-8 col-md-6 col-lg-offset-1">
+      <div class="input-group field">
+        <%= f.text_field :email, :class => "form-control signup-form", :placeholder => "Email address" %>
+        <%= f.hidden_field :code %>
+        <% if @user.errors.any? %><label class="control-label" for="inputError"><% @user.errors.full_messages.each do |msg| %><%= msg %><% end %></label><% end %>
+        <span class="input-group-btn">
+          <%= f.submit "Notify me", :class => "btn btn-success signup-button" %>
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- End Sign Up Form -->
+<% end %>
+
+  <!-- Support Points -->
+  <div class="row support-points">
+    <div class="col-lg-5 col-md-6 col-sm-8 col-lg-offset-1">
+      <div class="row support-points">
+        <div class="col-lg-4 text-center"><p class="text"><strong>DISCOVER</strong><br />Seasonal craft drinks picked by experts.</p></div>
+        <div class="col-lg-4 text-center"><p class="text"><strong>LEARN</strong><br />Portioned ingredients and detailed recipe.</p></div>
+        <div class="col-lg-4 text-center"><p class="text"><strong>DELIVERED</strong><br />New box each month with free shipping.</p></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Sign Up Form -->
+
+  <!-- Long Description -->
+  <div class="row">
+    <div class="col-lg-5 col-md-6 col-sm-8 col-lg-offset-1">
+      <p><small>Stirred is a monthly subscription for one of the best things in life: well-made cocktails. With Stirred, there's no need to pay high prices at a bar, with curated recipes and portioned ingredients so you can make them at home. Share with a significant other or friend, because each box contains enough for at least two drinks (excluding alcohol).</small></p>
+    </div>
+  </div>
+  <!-- End Long Description -->
+
+
