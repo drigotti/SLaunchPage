@@ -1,9 +1,22 @@
 ---
+FontAwesome.otf: FontAwesome-7d7ffc177b131f73ef63ac48451d07c2.otf
+fontawesome-webfont.eot: fontawesome-webfont-639f71a9d5d884a6764a6dcad83fe0d8.eot
+fontawesome-webfont.svg: fontawesome-webfont-4b91213b0a1cf8ce2a9362661363df07.svg
+fontawesome-webfont.ttf: fontawesome-webfont-13834e923d0ef5e0964e6983cebf2724.ttf
+fontawesome-webfont.woff: fontawesome-webfont-7daae4e8c41bd3f07010a510f51c2097.woff
 glyphicons-halflings-regular.eot: glyphicons-halflings-regular-8230cc7eedc7cac3101ae208bf7d33a5.eot
 glyphicons-halflings-regular.svg: glyphicons-halflings-regular-4fd1fcca50640ed187156d50a5d102f7.svg
 glyphicons-halflings-regular.ttf: glyphicons-halflings-regular-552030dcfecec5e0ebe97c1c231e0e28.ttf
 glyphicons-halflings-regular.woff: glyphicons-halflings-regular-4f45817077fe28b7902560b3d1828c3b.woff
+background-org.jpg: background-org-4a038e88f5274db643b5d0797c8265b6.jpg
+background.jpg: background-bba13ff8868424278d77b65333a9d111.jpg
+down_arrow.gif: down_arrow-949a63557719b960573a47840e38af79.gif
+favicon.ico: favicon-9c0d8b82aa085c341cb2692a4129fa48.ico
+logo/logo-dark.png: logo/logo-dark-2a27cbc5c03c429cd82a7a90d383ebe4.png
+logo/logo-light.png: logo/logo-light-57155850ca2f2be00609c5a31177bef2.png
+logo/logo.psd: logo/logo-40bcc7e6dde36acdf4915a64bee8d82b.psd
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
+up_arrow.gif: up_arrow-04baf5a2c55de4be2ae6e79247f56036.gif
 application.js: application-cea2d99af8354e6417f15d753ce79a0b.js
-application.css: application-2365d23dbd5b6028202c4cfd09b0c640.css
+application.css: application-2d727919f6ba758c2e080a559c07157b.css
 jquery.min.map: jquery.min-70bec01470bf6bcfed5892ae554b38c8.map
