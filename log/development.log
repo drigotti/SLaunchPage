@@ -18799,3 +18799,314 @@ Served asset /favicon.ico - 200 OK (5ms)
 
 Started GET "/assets/favicon.ico" for 127.0.0.1 at 2013-12-04 22:50:50 -0800
 Served asset /favicon.ico - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 23:10:34 -0800
+Connecting to database specified by database.yml
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.9ms)
+  Rendered users/new.html.erb within layouts/application (13.0ms)
+Compiled bootstrap-theme.css  (0ms)  (pid 51323)
+Compiled bootstrap-theme.min.css  (0ms)  (pid 51323)
+Compiled bootstrap.css  (0ms)  (pid 51323)
+Compiled bootstrap.min.css  (0ms)  (pid 51323)
+Compiled font-awesome.css  (0ms)  (pid 51323)
+Compiled launchcrush.css  (0ms)  (pid 51323)
+Compiled launchpage.css  (0ms)  (pid 51323)
+Compiled users.css  (8ms)  (pid 51323)
+Compiled application.css  (40ms)  (pid 51323)
+Compiled jquery.js  (2ms)  (pid 51323)
+Compiled jquery_ujs.js  (0ms)  (pid 51323)
+Compiled bootstrap.js  (0ms)  (pid 51323)
+Compiled bootstrap.min.js  (0ms)  (pid 51323)
+Compiled users.js  (173ms)  (pid 51323)
+Compiled application.js  (206ms)  (pid 51323)
+Completed 200 OK in 441ms (Views: 393.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /bootstrap-theme.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /bootstrap-theme.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /font-awesome.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/launchcrush.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /launchcrush.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /bootstrap.min.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/launchpage.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /launchpage.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /users.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:35 -0800
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/launchcrush.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /launchcrush.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/launchpage.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /launchpage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:37 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.3ms)
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/launchcrush.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /launchcrush.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/launchpage.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /launchpage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:39 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/launchcrush.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /launchcrush.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/launchpage.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /launchpage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-04 23:10:56 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 23:11:02 -0800
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:02 -0800
+Served asset /bootstrap-theme.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:02 -0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:02 -0800
+Served asset /bootstrap-theme.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:02 -0800
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /font-awesome.css - 200 OK (0ms)
+
+
+Started GET "/assets/launchcrush.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /launchcrush.css - 200 OK (0ms)
+
+
+Started GET "/assets/launchpage.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /launchpage.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 23:11:03 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
